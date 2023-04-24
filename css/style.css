@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 90%;
     margin: auto;
@@ -5,7 +9,7 @@ body {
 
 .header_left {
     float: left;
-    width: 20%;
+    width: 25%;
 }
 
 .header_right {
@@ -39,4 +43,20 @@ hr {
 
 .skill_ul hr {
     border: 1px solid gray;
+}
+
+/* 桌上型電腦 > 1024px */ 
+
+/* 平板電腦 720~1024px */
+/* 手機 320~720px */
+@media screen and (max-width: 720px) {
+    header .header_left {
+        width: 90%;
+        float: none;
+    }
+    
+    header .header_right {
+        width: 90%;
+        float: none;
+    }
 }
