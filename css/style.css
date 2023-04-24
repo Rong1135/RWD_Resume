@@ -1,3 +1,42 @@
 body {
-    color: black;
+    width: 90%;
+    margin: auto;
+}
+
+.header_left {
+    float: left;
+    width: 20%;
+}
+
+.header_right {
+    float: right;
+    width: 75%;
+}
+
+hr {
+    clear: both;
+}
+
+.skill_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skill_ul {
+    margin: 10px;
+}
+
+.skill_ul h4 {
+    text-align: center;
+}
+
+.skill_ul ul {
+    margin: 10px;
+    padding: 5px;
+}
+
+.skill_ul hr {
+    border: 1px solid gray;
 }
